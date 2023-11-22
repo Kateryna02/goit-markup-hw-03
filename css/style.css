@@ -1,0 +1,230 @@
+:root {
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2E2F42;
+    --color-main-text: #2E2F42;
+    --color-secondary-text: #434455;
+    --accent: #4D5AE5;
+    --accent-pressed-state: #404BBF;
+    --color-bg-team: #F4F4FD;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-bg-color);
+    color: #434455;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--accent);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-black {
+    color: var(--secondary-bg-color);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.list-item-one {
+    color: var(--secondary-bg-color);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+
+}
+
+.list-item-one:hover {
+    color: var(--accent-pressed-state);
+}
+
+.list-item-one:focus {
+    color: var(--accent-pressed-state);
+}
+
+.link:hover {
+    color: var(--accent-pressed-state);
+}
+
+.link:focus {
+    color: var(--accent-pressed-state);
+}
+
+.list {
+    list-style: none;
+}
+
+
+.address-one {
+    font-style: normal;
+}
+
+.address {
+    color: var(--color-secondary-text);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.address-mail {
+    color: var(--color-secondary-text);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-mail:hover {
+    color: var(--accent-pressed-state);
+}
+
+.address-mail:focus {
+    color: var(--accent-pressed-state);
+}
+
+.section-title-one {
+    color: var(--primary-bg-color);
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.section-title {
+    background: var(--color-main-text);
+
+}
+
+/* button */
+.button-blue {
+    font-family: 'Roboto', sans-serif;
+    background: var(--accent);
+    color: var(--primary-bg-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+
+.button-blue:hover {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.button-blue:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.button-port {
+    font-family: 'Roboto', sans-serif;
+    color: var(--accent);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--color-bg-team);
+    cursor: pointer;
+}
+
+.button-port:hover {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.button-port:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-pressed-state);
+}
+
+.title-list {
+    background: var(--primary-bg-color);
+}
+
+.title-projects {
+    color: var(--color-main-text);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.title-gap {
+    color: var(--color-secondary-text);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.section-blue {
+    background-color: var(--color-bg-team);
+}
+
+.section {
+    color: var(--color-main-text);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-last {
+
+    justify-content: center;
+    background: var(--primary-bg-color);
+
+}
+
+.logo-white {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-bg-team);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer {
+    background: var(--color-main-text);
+}
+
+.footer-title {
+    color: var(--color-bg-team);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
