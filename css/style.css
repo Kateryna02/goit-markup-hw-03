@@ -55,7 +55,7 @@ img {
     justify-content: space-around;
 } */
 .header {
-    border-bottom: 1px solid #ececec;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header>.container {
@@ -107,6 +107,8 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 78px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .list-item-one {
@@ -192,6 +194,7 @@ img {
     width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
+    max-width: 496px;
 
 
 
@@ -231,6 +234,7 @@ img {
 .button-blue:focus {
     color: var(--primary-bg-color);
     background-color: var(--accent-pressed-state);
+    
 }
 
 .button-port {
@@ -248,8 +252,8 @@ img {
     border-radius: 4px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     padding: 12px 24px;
-    margin-top: 96px;
-    margin-bottom: 84px;
+    /* margin-top: 96px;
+    margin-bottom: 84px; */
 
 }
 
@@ -258,16 +262,19 @@ img {
     justify-content: center;
     align-items: center;
     gap: 24px;
+
 }
 
 .button-port:hover {
     color: var(--primary-bg-color);
     background-color: var(--accent-pressed-state);
+    border: 1px solid transparent; 
 }
 
 .button-port:focus {
     color: var(--primary-bg-color);
     background-color: var(--accent-pressed-state);
+    border: 1px solid transparent; 
 }
 
 .title-list {
@@ -275,11 +282,13 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px; 
+    /* margin-bottom: 72px; */
 }
-
 
 .section-blue {
     background-color: var(--color-bg-team);
+    padding: 120px 0;
 }
 
 
@@ -294,15 +303,16 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize; */
     display: flex;
-    margin: 120px 0;
+    /* margin: 120px 0; */
     gap: 24px;
 
 }
 
 .section-list {
     display: flex;
-    margin: 120px 0;
+    padding: 120px 0;
     gap: 24px;
+
 
 
 }
@@ -318,6 +328,8 @@ img {
 /* h-3-p */
 .set-list{
     flex-basis: calc((100% - 24px) / 4);
+    
+    /* margin-bottom: 72px; */
 }
 .title-projects {
     color: var(--color-main-text);
@@ -327,6 +339,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: center;
+    
 
 }
 
@@ -338,11 +352,15 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 
 
 
 }
-
+.section-foto{
+padding-top: 96px;
+padding-bottom: 120px;
+}
 .title-projects-one {
     color: var(--color-main-text);
     font-size: 20px;
@@ -351,12 +369,13 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    padding-top: 32px;
+    /* padding-top: 32px; */
+    /* text-align: center; */
 
 }
 
 .fics {
-    margin-bottom: 120px;
+  padding-top: 96px;
 }
 
 .title-gap-one {
@@ -366,7 +385,8 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
+    /* text-align: center; */
+    /* padding-bottom: 32px; */
 
 
 }
@@ -386,13 +406,10 @@ img {
 }
 
 /* section-3 */
-.section-last {
 
-    justify-content: center;
-    background: var(--primary-bg-color);
-
+.section-tthree{
+    padding-bottom: 120px;
 }
-
 .general {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -415,14 +432,28 @@ img {
 .picture {
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
+    
 
 }
 
 
 /* section-4 */
+.pagin {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: 0;
+    /* margin-bottom: 8px; */
+}
+.section-last {
 
+    justify-content: center;
+    background: var(--primary-bg-color);
+    border-radius: 0px 0px 4px 4px;
 
+}
+.name-item{
+  padding: 32px 0;
+}
 .general-too {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -434,7 +465,7 @@ img {
     /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-top: 120px;
+    margin-bottom: 72px;
     padding-bottom: 72px;
 }
 
