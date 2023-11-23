@@ -294,16 +294,9 @@ img {
 
 /* section-2 */
 .section {
-    /* color: var(--color-main-text);
-    text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize; */
+   
     display: flex;
-    /* margin: 120px 0; */
+    
     gap: 24px;
 
 }
