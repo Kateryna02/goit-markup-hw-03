@@ -442,7 +442,7 @@ img {
     row-gap: 48px; 
     /* margin-bottom: 72px; */
 }
-.set-list{
+.sett-list{
     flex-basis: calc((100% - 24px) / 4);
     display: flex;
     flex-wrap: wrap; 
