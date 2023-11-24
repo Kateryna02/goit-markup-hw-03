@@ -430,16 +430,15 @@ img {
     padding-bottom: 72px;
 }
 /* foto */
-.section-foto{
-    padding-top: 96px;
-    padding-bottom: 120px;
-    }
+
 .title-list-link {
     background: var(--primary-bg-color);
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px; 
+    padding-top: 96px;
+    padding-bottom: 120px;
     /* margin-bottom: 72px; */
 }
 .sett-list{
