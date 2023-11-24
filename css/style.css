@@ -55,24 +55,24 @@ img {
     justify-content: space-around;
 } */
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .header>.container {
     display: flex;
     justify-content: space-between;
 }
-
+.list-one{
+    display: block;
+    padding: 24px 0;
+}
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.consept {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 .nav>.list {
     display: flex;
@@ -166,6 +166,9 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 0;
+
 }
 
 .address-mail:hover {
