@@ -434,7 +434,7 @@ img {
     padding-top: 96px;
     padding-bottom: 120px;
     }
-.title-list {
+.title-list-link {
     background: var(--primary-bg-color);
     display: flex;
     flex-wrap: wrap;
