@@ -112,6 +112,7 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 78px;
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
